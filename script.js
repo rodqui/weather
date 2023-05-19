@@ -18,7 +18,7 @@ $(function(){
         
 
         $.ajax({
-            url: "http://localhost:3000/new",
+            url: "/new",
             type: "post",
             
             data: JSON.stringify(data),
